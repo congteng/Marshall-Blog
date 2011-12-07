@@ -1,0 +1,123 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323245699.4511876:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%81bdc69a938d3b3b8bbf211489cf07cbI"logical_path;
+FI"application.css;
+TI"pathname;
+FI"1$root/app/assets/stylesheets/application.css;
+FI"content_type;
+FI"text/css;
+FI"
+mtime;
+FI"2011-12-07T16:12:33+08:00;
+FI"	body;
+FI"‘/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+
+
+body{
+	background: url('bg.png') bottom left repeat;
+}
+
+#back{
+	background-color: white;
+}
+
+
+
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination a, .pagination em, .disabled {
+  padding: 1px 5px;
+  margin: 0 3px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+}
+
+.pagination em {
+  color: #fff;
+  background: #555;
+  border: 1px solid #555;
+}
+
+.disabled {
+  display: none;
+}
+
+.pagination a:hover {
+  color: #fff;
+  background: #555;
+}
+
+;
+FI"asset_paths;
+F[I"1$root/app/assets/stylesheets/application.css;
+FI"/$root/app/assets/stylesheets/bootstrap.css;
+FI".$root/app/assets/stylesheets/comments.css;
+FI".$root/app/assets/stylesheets/pictures.css;
+FI"+$root/app/assets/stylesheets/posts.css;
+FI".$root/app/assets/stylesheets/scaffold.css;
+FI"dependency_paths;
+F[{I"	path;
+FI"1$root/app/assets/stylesheets/application.css;
+FI"
+mtime;
+FIu:	Timeãì€,÷qm
+:@_zoneI"CST;
+T:nano_numi>:nano_deni:submicro"ƒ:offseti€pI"hexdigest;
+F"%dd83f187d34f2078327587ee919cbcf8{I"	path;
+FI"!$root/app/assets/stylesheets;
+FI"
+mtime;
+FIu;ãì€Aà±
+;I"CST;
+T;i4;i;"p;i€pI"hexdigest;
+F"%c778f8233ba219847d5f35ce818823e2{I"	path;
+FI"/$root/app/assets/stylesheets/bootstrap.css;
+FI"
+mtime;
+FIu;èì€Èù2
+;I"CST;
+T;i²;i;"i;i€pI"hexdigest;
+F"%47f4082de05c74b31625c4910a4e5533{I"	path;
+FI".$root/app/assets/stylesheets/comments.css;
+FI"
+mtime;
+FIu;Åì€ˆç
+;I"CST;
+T;i~;i;"8 ;i€pI"hexdigest;
+F"%86bc49d9e548d142af31e2cc4a6e56e8{I"	path;
+FI".$root/app/assets/stylesheets/pictures.css;
+FI"
+mtime;
+FIu;ãì€Aà±
+;I"CST;
+T;i4;i;"p;i€pI"hexdigest;
+F"%86bc49d9e548d142af31e2cc4a6e56e8{I"	path;
+FI"+$root/app/assets/stylesheets/posts.css;
+FI"
+mtime;
+FIu;Åì€’IòÂ
+;I"CST;
+T;i];i;"€;i€pI"hexdigest;
+F"%86bc49d9e548d142af31e2cc4a6e56e8{I"	path;
+FI".$root/app/assets/stylesheets/scaffold.css;
+FI"
+mtime;
+FIu;Åì€ò¶òÂ
+;I"CST;
+T;i\;i;"p;i€pI"hexdigest;
+F"%deae229dd6ee04fbe09269428804d96aI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

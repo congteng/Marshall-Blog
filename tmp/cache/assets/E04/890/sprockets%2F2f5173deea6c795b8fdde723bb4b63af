@@ -1,0 +1,76 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323229700.4459083:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%e65b2931c0ea665310251c1438829b25I"logical_path;
+FI"application.js;
+TI"pathname;
+FI"0$root/app/assets/javascripts/application.js;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2011-12-07T11:44:29+08:00;
+FI"	body;
+FI"î// This is a manifest file that'll be compiled into including all the files listed below.
+// Add new JavaScript/Coffee code in separate files in this directory and they'll automatically
+// be included in the compiled file accessible from http://example.com/assets/application.js
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// the compiled file.
+//
+;
+;
+FI"asset_paths;
+F["h/home/congteng/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.js"l/home/congteng/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery_ujs.jsI"-$root/app/assets/javascripts/comments.js;
+FI"-$root/app/assets/javascripts/pictures.js;
+FI"*$root/app/assets/javascripts/posts.js;
+FI"0$root/app/assets/javascripts/application.js;
+FI"dependency_paths;
+F[{I"	path;
+FI"0$root/app/assets/javascripts/application.js;
+FI"
+mtime;
+FIu:	Time≈ÏÄ´[¸°
+:@_zoneI"CST;
+T:nano_numiô:nano_deni:submicro"@ê:offsetiÄpI"hexdigest;
+F"%549ddbd6cc7eb5cac3ef01164f35f695{I"	path;
+FI"!$root/app/assets/javascripts;
+FI"
+mtime;
+FIu;„ÏÄ˜ﬁ±
+;I"CST;
+T;i6;i;"ê;iÄpI"hexdigest;
+F"%675460b6ffe6b1e97fcb3409b378baf5{I"	path;
+F"h/home/congteng/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.jsI"
+mtime;
+FIu;≈ÏÄ´ ë§
+;I"CST;
+T;iè;i;"ë;iÄpI"hexdigest;
+F"%683679b346b30943f8589b640966202a{I"	path;
+F"l/home/congteng/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery_ujs.jsI"
+mtime;
+FIu;≈ÏÄK0ë§
+;I"CST;
+T;iè;i;"ë;iÄpI"hexdigest;
+F"%2caafa0c2617f9985c1a0b07ebaefadf{I"	path;
+FI"-$root/app/assets/javascripts/comments.js;
+FI"
+mtime;
+FIu;≈ÏÄŸhÁ
+;I"CST;
+T;i;i;"80;iÄpI"hexdigest;
+F"%31f2763935be0dcf666160db996ee952{I"	path;
+FI"-$root/app/assets/javascripts/pictures.js;
+FI"
+mtime;
+FIu;„ÏÄ˜ﬁ±
+;I"CST;
+T;i6;i;"ê;iÄpI"hexdigest;
+F"%31f2763935be0dcf666160db996ee952{I"	path;
+FI"*$root/app/assets/javascripts/posts.js;
+FI"
+mtime;
+FIu;≈ÏÄ≤Ú¬
+;I"CST;
+T;i];i;"Ä;iÄpI"hexdigest;
+F"%31f2763935be0dcf666160db996ee952I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

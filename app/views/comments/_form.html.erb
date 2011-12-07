@@ -1,0 +1,33 @@
+<%= form_for([@post, @post.comments.build]) do |c| %> 
+
+  <fieldset>
+    <div class="clearfix">
+      <%= c.label :author_name%>
+      <div class="input">
+        <%= c.text_field :author_name %>
+      </div>
+    </div>
+
+    <div class="clearfix">
+        <%= c.label :author_email %>
+      <div class="input">
+        <%= c.text_field :author_email %>
+      </div>
+    </div>
+
+      <div class="clearfix">
+      <%= c.label :content%>
+      <div class="input">
+        <%= c.text_area :content%>
+      </div>
+    </div>
+
+      <div class="clearfix">
+      <div class="input">
+        <%= c.submit "submit your comment"%>
+      </div>
+    </div>
+
+  </fieldset>
+<% end %>
+

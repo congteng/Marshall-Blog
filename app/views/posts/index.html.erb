@@ -1,0 +1,42 @@
+ <div class="row">
+ 	<div class="span14">
+		 <div class="hero-unit">
+		        <h1>Welcome here</h1>
+		        <div class="row">	
+		        
+		        	<p>Description: Marshall's blog..Coding or something.. :) </p>
+		        
+		        </div>
+		        <p><a class="btn primary large">more about me &raquo;</a></p>
+		</div>
+	</div>
+
+	<div class="span2">
+		 <div class="hero-unit">
+			avatar
+		</div>
+	</div>
+</div>
+
+ 
+<% @posts.each do |post| %>
+	<section class="hero-unit">
+		<div class="page-header">
+			<h1><%= link_to post.title, post %> <small><%= time_ago_in_words post.created_at %></small></h1>
+		<div>
+
+		<div class="row">
+			<div class="span13">
+				<%= post.content %>
+			</div>
+			<div class="span3">
+				<%= link_to 'Edit', edit_post_path(post) %>
+				<%= link_to 'Destroy', post, confirm:'sure?', method: :delete %>
+			</div>
+		</div>
+	</section>
+<% end %>
+
+
+<%= paginate @posts %>
+<%= link_to 'New Post', new_post_path %>

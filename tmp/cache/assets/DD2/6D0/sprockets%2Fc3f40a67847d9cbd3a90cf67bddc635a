@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323229700.3195763:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%b6ffe86bfa8cb99355a4b324797cc094I"logical_path;
+F"pictures.cssI"pathname;
+FI".$root/app/assets/stylesheets/pictures.css;
+FI"content_type;
+FI"text/css;
+FI"
+mtime;
+FI"2011-12-07T11:44:30+08:00;
+FI"	body;
+FI"Å/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+;
+FI"asset_paths;
+F[I".$root/app/assets/stylesheets/pictures.css;
+FI"dependency_paths;
+F[{I"	path;
+FI".$root/app/assets/stylesheets/pictures.css;
+FI"
+mtime;
+FIu:	Time„ÏÄA‡±
+:@_zoneI"CST;
+T:nano_numi4:nano_deni:submicro"p:offsetiÄpI"hexdigest;
+F"%86bc49d9e548d142af31e2cc4a6e56e8I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

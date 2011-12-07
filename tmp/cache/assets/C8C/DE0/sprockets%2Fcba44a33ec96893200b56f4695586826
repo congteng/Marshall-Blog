@@ -1,0 +1,28 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323152248.0314686:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%e4d0f258633f2a5645ea250536a72d89I"logical_path;
+F"comments.jsI"pathname;
+FI"-$root/app/assets/javascripts/comments.js;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2011-12-06T13:57:48+08:00;
+FI"	body;
+FI"•// Place all the behaviors and hooks related to the matching controller here.
+// All this logic will automatically be available in application.js.
+;
+;
+FI"asset_paths;
+F[I"-$root/app/assets/javascripts/comments.js;
+FI"dependency_paths;
+F[{I"	path;
+FI"-$root/app/assets/javascripts/comments.js;
+FI"
+mtime;
+FIu:	TimeÅì€Ùhç
+:@_zoneI"CST;
+T:nano_numi:nano_deni:submicro"80:offseti€pI"hexdigest;
+F"%31f2763935be0dcf666160db996ee952I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

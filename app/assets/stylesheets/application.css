@@ -1,0 +1,51 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+body{
+	background: url('bg.png') bottom left repeat;
+}
+
+#back{
+	background-color: white;
+}
+
+
+
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination a, .pagination em, .disabled {
+  padding: 1px 5px;
+  margin: 0 3px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+}
+
+.pagination em {
+  color: #fff;
+  background: #555;
+  border: 1px solid #555;
+}
+
+.disabled {
+  display: none;
+}
+
+.pagination a:hover {
+  color: #fff;
+  background: #555;
+}
+

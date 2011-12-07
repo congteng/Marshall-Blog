@@ -1,0 +1,9 @@
+<div class="hero-unit">
+	<ul class="media-grid">
+		<%@pictures.each do |pic|%>
+			<a href="<%= pic.image_url %>"><%= image_tag pic.image_url(:thumb)%></a>
+		<%end%>
+	</ul>
+</div>
+<hr>
+<%= render "upload"%>

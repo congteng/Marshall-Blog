@@ -1,0 +1,8 @@
+development:
+  adapter: mysql2
+  database: myblog_dev
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: root
+  password: congteng45

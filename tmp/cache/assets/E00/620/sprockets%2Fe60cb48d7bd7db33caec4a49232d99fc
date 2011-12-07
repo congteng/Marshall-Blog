@@ -1,0 +1,28 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323229700.4411016:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%c93a54ab685c2e988fcca5286c07b23bI"logical_path;
+F"pictures.jsI"pathname;
+FI"-$root/app/assets/javascripts/pictures.js;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2011-12-07T11:44:29+08:00;
+FI"	body;
+FI"ï// Place all the behaviors and hooks related to the matching controller here.
+// All this logic will automatically be available in application.js.
+;
+;
+FI"asset_paths;
+F[I"-$root/app/assets/javascripts/pictures.js;
+FI"dependency_paths;
+F[{I"	path;
+FI"-$root/app/assets/javascripts/pictures.js;
+FI"
+mtime;
+FIu:	Time„ÏÄ˜ﬁ±
+:@_zoneI"CST;
+T:nano_numi6:nano_deni:submicro"ê:offsetiÄpI"hexdigest;
+F"%31f2763935be0dcf666160db996ee952I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5
