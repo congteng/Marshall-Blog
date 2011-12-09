@@ -14,7 +14,7 @@ class PostsController < ApplicationController
   # GET /posts/1.json
   def show
     @post = Post.find(params[:id])
-    @comments = @post.comments
+    #@comments = @post.comments
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @post }
@@ -41,7 +41,6 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
     @post = Post.new(params[:post])
-
     respond_to do |format|
       if @post.save
         format.html { redirect_to @post, notice: 'Post was successfully created.' }
@@ -57,7 +56,7 @@ class PostsController < ApplicationController
   # PUT /posts/1.json
   def update
     @post = Post.find(params[:id])
-
+    @comment = @post.commnet.create params[:comment]
     respond_to do |format|
       if @post.update_attributes(params[:post])
         format.html { redirect_to @post, notice: 'Post was successfully updated.' }
