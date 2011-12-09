@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323245699.4511876:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323341229.9283385:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%81bdc69a938d3b3b8bbf211489cf07cbI"logical_path;
+F"%affe7bd2103ede72a60dddd9319979ceI"logical_path;
 FI"application.css;
 TI"pathname;
 FI"1$root/app/assets/stylesheets/application.css;
@@ -9,12 +9,13 @@ FI"content_type;
 FI"text/css;
 FI"
 mtime;
-FI"2011-12-07T16:12:33+08:00;
+FI"2011-12-08T18:45:38+08:00;
 FI"	body;
-FI"ë/*
+FI"«/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
+
 */
 
 
@@ -61,37 +62,36 @@ body{
   background: #555;
 }
 
+
+
+.content_css{
+  
+  width: 300px;
+  height: 90px;
+}
 ;
 FI"asset_paths;
 F[I"1$root/app/assets/stylesheets/application.css;
-FI"/$root/app/assets/stylesheets/bootstrap.css;
 FI".$root/app/assets/stylesheets/comments.css;
 FI".$root/app/assets/stylesheets/pictures.css;
 FI"+$root/app/assets/stylesheets/posts.css;
 FI".$root/app/assets/stylesheets/scaffold.css;
-FI"dependency_paths;
+F"~/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/stylesheets/bootstrap.scssI"dependency_paths;
 F[{I"	path;
 FI"1$root/app/assets/stylesheets/application.css;
 FI"
 mtime;
-FIu:	Time„ÏÄ,˜qm
+FIu:	TimeÌÄ¥ø%
 :@_zoneI"CST;
-T:nano_numi>:nano_deni:submicro"É:offsetiÄpI"hexdigest;
-F"%dd83f187d34f2078327587ee919cbcf8{I"	path;
+T:nano_numi#:nano_deni:submicro"Tp:offsetiÄpI"hexdigest;
+F"%97f507a968d5a11e12ab243b27e6fe43{I"	path;
 FI"!$root/app/assets/stylesheets;
 FI"
 mtime;
-FIu;„ÏÄA‡±
+FIu;ÌÄ~0*◊
 ;I"CST;
-T;i4;i;"p;iÄpI"hexdigest;
-F"%c778f8233ba219847d5f35ce818823e2{I"	path;
-FI"/$root/app/assets/stylesheets/bootstrap.css;
-FI"
-mtime;
-FIu;ËÏÄ»˘2
-;I"CST;
-T;i≤;i;"i;iÄpI"hexdigest;
-F"%47f4082de05c74b31625c4910a4e5533{I"	path;
+T;iP;i;"3`;iÄpI"hexdigest;
+F"%f238d5d4a5b0154f2a45a51acdfd8dae{I"	path;
 FI".$root/app/assets/stylesheets/comments.css;
 FI"
 mtime;
@@ -116,8 +116,15 @@ F"%86bc49d9e548d142af31e2cc4a6e56e8{I"	path;
 FI".$root/app/assets/stylesheets/scaffold.css;
 FI"
 mtime;
-FIu;≈ÏÄÚ∂Ú¬
+FIu;
+ÌÄCd∂
 ;I"CST;
-T;i\;i;"p;iÄpI"hexdigest;
-F"%deae229dd6ee04fbe09269428804d96aI"_version;
+T;i;i;"wê;iÄpI"hexdigest;
+F"%46dde6621c301f4928e3b34efee9e3b5{I"	path;
+F"~/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/stylesheets/bootstrap.scssI"
+mtime;
+FIu;ÌÄ˙v
+;I"CST;
+T;i≠;i;"0;iÄpI"hexdigest;
+F"%579f2b32479e8e06816a6fb32b9c3542I"_version;
 F"%46dde6621c301f4928e3b34efee9e3b5

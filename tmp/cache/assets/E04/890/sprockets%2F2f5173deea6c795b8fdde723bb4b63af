@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323229700.4459083:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323346625.569181:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%e65b2931c0ea665310251c1438829b25I"logical_path;
+F"%05af17cf6d023d91404c963fab0fc8f0I"logical_path;
 FI"application.js;
 TI"pathname;
 FI"0$root/app/assets/javascripts/application.js;
@@ -9,37 +9,25 @@ FI"content_type;
 FI"application/javascript;
 FI"
 mtime;
-FI"2011-12-07T11:44:29+08:00;
+FI"2011-12-08T20:16:49+08:00;
 FI"	body;
-FI"î// This is a manifest file that'll be compiled into including all the files listed below.
-// Add new JavaScript/Coffee code in separate files in this directory and they'll automatically
-// be included in the compiled file accessible from http://example.com/assets/application.js
-// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// the compiled file.
-//
+FI"6
+$(function () {
+	$("#show_info").popover()
+})
 ;
 ;
 FI"asset_paths;
-F["h/home/congteng/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.js"l/home/congteng/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery_ujs.jsI"-$root/app/assets/javascripts/comments.js;
-FI"-$root/app/assets/javascripts/pictures.js;
-FI"*$root/app/assets/javascripts/posts.js;
-FI"0$root/app/assets/javascripts/application.js;
+F["h/home/congteng/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.js"l/home/congteng/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery_ujs.js"~/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-alerts.js"Ä/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-dropdown.js"~/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-twipsy.js"/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-buttons.js"/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-popover.jsI"0$root/app/assets/javascripts/application.js;
 FI"dependency_paths;
-F[{I"	path;
+F[{I"	path;
 FI"0$root/app/assets/javascripts/application.js;
 FI"
 mtime;
-FIu:	Time≈ÏÄ´[¸°
+FIu:	TimeÌÄæ∂C
 :@_zoneI"CST;
-T:nano_numiô:nano_deni:submicro"@ê:offsetiÄpI"hexdigest;
-F"%549ddbd6cc7eb5cac3ef01164f35f695{I"	path;
-FI"!$root/app/assets/javascripts;
-FI"
-mtime;
-FIu;„ÏÄ˜ﬁ±
-;I"CST;
-T;i6;i;"ê;iÄpI"hexdigest;
-F"%675460b6ffe6b1e97fcb3409b378baf5{I"	path;
+T:nano_numiN:nano_deni:submicro"Ñ`:offsetiÄpI"hexdigest;
+F"%bcb351d5a57bdbbded2a38dc826bddb8{I"	path;
 F"h/home/congteng/.rvm/gems/ruby-1.9.3-p0/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.jsI"
 mtime;
 FIu;≈ÏÄ´ ë§
@@ -52,25 +40,34 @@ FIu;≈ÏÄK0ë§
 ;I"CST;
 T;iè;i;"ë;iÄpI"hexdigest;
 F"%2caafa0c2617f9985c1a0b07ebaefadf{I"	path;
-FI"-$root/app/assets/javascripts/comments.js;
-FI"
+F"~/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-alerts.jsI"
 mtime;
-FIu;≈ÏÄŸhÁ
+FIu;ÌÄ˙v
 ;I"CST;
-T;i;i;"80;iÄpI"hexdigest;
-F"%31f2763935be0dcf666160db996ee952{I"	path;
-FI"-$root/app/assets/javascripts/pictures.js;
-FI"
+T;i≠;i;"0;iÄpI"hexdigest;
+F"%570056a762a159669b05f49c21a095e7{I"	path;
+F"Ä/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-dropdown.jsI"
 mtime;
-FIu;„ÏÄ˜ﬁ±
+FIu;ÌÄ˙v
 ;I"CST;
-T;i6;i;"ê;iÄpI"hexdigest;
-F"%31f2763935be0dcf666160db996ee952{I"	path;
-FI"*$root/app/assets/javascripts/posts.js;
-FI"
+T;i≠;i;"0;iÄpI"hexdigest;
+F"%c1b360a1de6d4f46ba307597db191540{I"	path;
+F"~/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-twipsy.jsI"
 mtime;
-FIu;≈ÏÄ≤Ú¬
+FIu;ÌÄ˙v
 ;I"CST;
-T;i];i;"Ä;iÄpI"hexdigest;
-F"%31f2763935be0dcf666160db996ee952I"_version;
+T;i≠;i;"0;iÄpI"hexdigest;
+F"%62f5f18cc3ec0bb6c01b1773302e7a0d{I"	path;
+F"/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-buttons.jsI"
+mtime;
+FIu;ÌÄ˙v
+;I"CST;
+T;i≠;i;"0;iÄpI"hexdigest;
+F"%51b9343df3598bcf0388be9fbb7552a3{I"	path;
+F"/home/congteng/.rvm/gems/ruby-1.9.3-p0/bundler/gems/bootstrap-rails-7fe2d48ef0b0/vendor/assets/javascripts/bootstrap-popover.jsI"
+mtime;
+FIu;ÌÄ˙v
+;I"CST;
+T;i≠;i;"0;iÄpI"hexdigest;
+F"%83bd1ecfa44b344c90f99725f8becc02I"_version;
 F"%46dde6621c301f4928e3b34efee9e3b5

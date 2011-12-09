@@ -1,6 +1,8 @@
-<%= form_for @picture, :html => {:multipart => true} do |f| %>
-  <p>
-    <%= f.file_field :image %>
-  </p>
-  <%= f.submit "upload"%>
-<% end %>
+<div id="back">
+	<%= simple_form_for @picture, :wrapper => :inline do |f|%>
+		<%= f.input :image, :hint => 'select A image from your document'%>
+		<div class="actions">
+			<%= f.submit "upload", :class => "btn primary"%>
+		</div>
+	<% end -%>
+</div>

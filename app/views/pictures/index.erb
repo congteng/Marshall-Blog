@@ -1,9 +1,15 @@
-<div class="hero-unit">
+<div class="hero-unit" id="back">	
 	<ul class="media-grid">
-		<%@pictures.each do |pic|%>
-			<a href="<%= pic.image_url %>"><%= image_tag pic.image_url(:thumb)%></a>
-		<%end%>
+		<div class="row">
+			<%@pictures.each do |pic|%>
+				<div class="span4">
+			    	 	<li>
+						<a href="<%= pic.image_url %>"><%= image_tag pic.image_url(:thumb)%></a>
+					</li>
+				</div>
+			<%end%>
+		  </div>
 	</ul>
 </div>
-<hr>
+
 <%= render "upload"%>

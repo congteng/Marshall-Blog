@@ -21,13 +21,13 @@
 	<br>
 	<br>
 	
-	<h2>Comments as follows</h2>
+	<h3>Comments as follows</h3>
 
 
 	<% @comments.each do |c|%>
 		<%= render partial: "comments/comment", locals: {:comment => c} %>
 	<% end -%>
-	<h2>Comments as follows</h2>
+	
 	<%= render partial: "comments/form"%>
 
 </div>

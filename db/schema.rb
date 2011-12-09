@@ -14,10 +14,10 @@
 ActiveRecord::Schema.define(:version => 20111207034318) do
 
   create_table "comments", :force => true do |t|
+    t.integer  "post_id"
     t.string   "author_name"
     t.string   "author_email"
     t.text     "content"
-    t.integer  "post_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

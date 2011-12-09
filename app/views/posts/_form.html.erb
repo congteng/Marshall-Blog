@@ -1,25 +1,10 @@
-<%= form_for(@post) do |f| %>
-  <% if @post.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
-
-      <ul>
-      <% @post.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+<div class="hero-unit">
+  <%= simple_form_for @post, :wrapper => :inline do |f|%>
+    <%= f.input :title%>
+    <%= f.input :content, :input_html => { :class => "content_css" }%>
+    <div class="actions">
+    <%= f.submit "Done",  :class => "btn primary"%>
     </div>
-  <% end %>
+  <% end -%>
 
-  <div class="field">
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :content %><br />
-    <%= f.text_area :content %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+</div>

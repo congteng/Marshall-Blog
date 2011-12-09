@@ -4,6 +4,8 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
  *= require_tree . 
+
+ *= require bootstrap
 */
 
 body{
@@ -49,3 +51,10 @@ body{
   background: #555;
 }
 
+
+
+.content_css{
+  
+  width: 300px;
+  height: 90px;
+}

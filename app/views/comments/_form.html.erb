@@ -1,33 +1,10 @@
-<%= form_for([@post, @post.comments.build]) do |c| %> 
+<%= simple_form_for [@post, @post.comments.build] , :wrapper => :inline do |f|%>
+  <%= f.input :author_name%>
+  <%= f.input :author_email %>
+  <%= f.input :content, :input_html => { :class => "content_css" }%>
+  <div class="actions">
+    <%= f.submit "Submit",  :class => "btn primary"%>
+  </div>
+<%end%>
 
-  <fieldset>
-    <div class="clearfix">
-      <%= c.label :author_name%>
-      <div class="input">
-        <%= c.text_field :author_name %>
-      </div>
-    </div>
-
-    <div class="clearfix">
-        <%= c.label :author_email %>
-      <div class="input">
-        <%= c.text_field :author_email %>
-      </div>
-    </div>
-
-      <div class="clearfix">
-      <%= c.label :content%>
-      <div class="input">
-        <%= c.text_area :content%>
-      </div>
-    </div>
-
-      <div class="clearfix">
-      <div class="input">
-        <%= c.submit "submit your comment"%>
-      </div>
-    </div>
-
-  </fieldset>
-<% end %>
 
